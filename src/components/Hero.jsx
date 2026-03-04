@@ -27,8 +27,8 @@ export default function Hero() {
     }
 
     return (
-        <section id="hero" ref={sectionRef} className="relative min-h-screen flex items-center hero-gradient pt-24">
-            <div className="max-w-6xl mx-auto px-4 py-16 grid md:grid-cols-2 gap-12 items-center">
+        <section id="hero" ref={sectionRef} className="relative w-full flex flex-col justify-center hero-gradient pt-28 pb-10 min-h-screen">
+            <div className="max-w-6xl mx-auto px-4 py-8 grid md:grid-cols-2 gap-12 items-center">
                 {/* Text Content */}
                 <div className="text-center md:text-left order-2 md:order-1">
                     <div className="scroll-hidden" style={{ transitionDelay: '0.1s' }}>
@@ -105,8 +105,8 @@ export default function Hero() {
                 </div>
             </div>
 
-            {/* Scroll indicator */}
-            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
+            {/* Scroll indicator - relative to content instead of absolute */}
+            <div className="flex flex-col items-center gap-2 animate-bounce mt-8 md:absolute md:bottom-8 md:left-1/2 md:-translate-x-1/2">
                 <span className="text-primary-400 text-base">เลื่อนลง</span>
                 <svg className="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
