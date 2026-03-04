@@ -74,18 +74,20 @@ export default function Contact() {
 
                     {/* LINE */}
                     <a
-                        href="#"
+                        href="https://line.me/ti/p/~friendandpum"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="scroll-hidden glass-card rounded-2xl p-8 flex flex-col items-center gap-5 group transition-all duration-500"
                         style={{ transitionDelay: '0.4s' }}
                     >
-                        <div className="w-[4.5rem] h-[4.5rem] rounded-full bg-gradient-to-br from-green-400 to-green-600 flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-green-400/20">
-                            <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M19.365 9.864c.018 0 .049 0 .018 0C21.07 6.748 17.24 2 12 2 6.477 2 2 5.88 2 10.545c0 4.247 3.764 7.803 8.849 8.478.344.074.81.227.929.521.106.266.07.683.034.952l-.15.893c-.045.27-.207 1.056.928.576 1.134-.48 6.122-3.607 8.348-6.175h.002C22.4 13.818 23 12.268 23 10.545c0-.093-.003-.185-.007-.276a8.636 8.636 0 0 0-.628-.405zM8.117 13.04H6.553a.545.545 0 0 1-.546-.545V8.97a.545.545 0 1 1 1.09 0v2.978h1.02a.545.545 0 1 1 0 1.09zm2.06-.545a.545.545 0 1 1-1.09 0V8.97a.545.545 0 1 1 1.09 0v3.524zm4.476 0a.545.545 0 0 1-.983.327l-1.96-2.671v2.344a.545.545 0 1 1-1.09 0V8.97a.545.545 0 0 1 .983-.327l1.96 2.671V8.97a.545.545 0 1 1 1.09 0v3.524zm3.62-2.434a.545.545 0 1 1 0 1.09h-1.02v.8h1.02a.545.545 0 1 1 0 1.089h-1.565a.545.545 0 0 1-.546-.545V8.97c0-.3.244-.545.546-.545h1.564a.545.545 0 1 1 0 1.09h-1.019v.546h1.02z" />
+                        <div className="w-[4.5rem] h-[4.5rem] rounded-full bg-gradient-to-br from-[#00B900] to-[#009900] flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg shadow-green-400/20">
+                            <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 496 512">
+                                <path d="M248 8C111.1 8 0 119.1 0 256c0 113.6 84.6 207.1 192 227v89.7c0 13 14.5 20.3 25 12.8L323.5 491C420 472.9 496 373.2 496 256 496 119.1 384.9 8 248 8zm98.6 307.7c-4.9 0-8.9-4-8.9-8.9v-73.6c0-4.9-4-8.9-8.9-8.9h-44.5c-4.9 0-8.9 4-8.9 8.9v73.6c0 4.9-4 8.9-8.9 8.9H222c-4.9 0-8.9-4-8.9-8.9v-73.6c0-4.9-4-8.9-8.9-8.9h-44.5c-4.9 0-8.9 4-8.9 8.9v73.6c0 4.9-4 8.9-8.9 8.9h-44.5c-4.9 0-8.9-4-8.9-8.9V215.3c0-4.9 4-8.9 8.9-8.9h44.5c4.9 0 8.9 4 8.9 8.9v47.2h36.4V215.3c0-4.9 4-8.9 8.9-8.9h44.5c4.9 0 8.9 4 8.9 8.9v47.2h36.4V215.3c0-4.9 4-8.9 8.9-8.9h44.5c4.9 0 8.9 4 8.9 8.9v82.4c0 4.9-4 8.9-8.9 8.9h-42.6z" />
                             </svg>
                         </div>
                         <div>
-                            <p className="text-primary-400 text-base mb-1">LINE</p>
-                            <p className="text-white font-bold text-xl">เพิ่มเพื่อนเลย</p>
+                            <p className="text-primary-400 text-base mb-1">LINE ID</p>
+                            <p className="text-white font-bold text-xl">friendandpum</p>
                         </div>
                     </a>
                 </div>
