@@ -67,7 +67,7 @@ export default function Services() {
                             บริการของเรา
                         </span>
                     </h2>
-                    <p className="scroll-hidden text-primary-300/70 mx-auto text-xl md:text-2xl" style={{ transitionDelay: '0.1s' }}>
+                    <p className="scroll-hidden text-white font-medium mx-auto text-xl md:text-2xl" style={{ transitionDelay: '0.05s' }}>
                         แม่หมอปุ้มพร้อมให้บริการด้วยความตั้งใจ ช่วยให้ท่านพบทางออกในชีวิต
                     </p>
                 </div>
@@ -89,15 +89,15 @@ export default function Services() {
                             <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">{service.title}</h3>
 
                             {/* Description */}
-                            <p className="text-primary-300/70 text-lg md:text-xl leading-relaxed mb-8">
+                            <p className="text-white text-lg md:text-xl leading-relaxed mb-8">
                                 {service.description}
                             </p>
 
                             {/* Features */}
                             <ul className="space-y-3">
                                 {service.features.map((feature, i) => (
-                                    <li key={i} className="flex items-center gap-3 text-lg md:text-xl text-primary-200/80">
-                                        <span className="text-gold-400 text-base">✦</span>
+                                    <li key={i} className="flex items-center gap-3 text-lg md:text-xl text-white font-medium">
+                                        <span className="text-gold-300 text-base">✦</span>
                                         {feature}
                                     </li>
                                 ))}

@@ -32,7 +32,7 @@ export default function Hero() {
                 {/* Text Content */}
                 <div className="text-center md:text-left order-2 md:order-1">
                     <div className="scroll-hidden" style={{ transitionDelay: '0.1s' }}>
-                        <span className="inline-block px-5 py-2 rounded-full text-base font-medium bg-primary-900/50 border border-primary-700/50 text-primary-300 mb-6">
+                        <span className="inline-block px-5 py-2 rounded-full text-base font-bold bg-primary-900 border border-primary-500 text-primary-100 mb-6">
                             ✨ ดูดวงแม่นยำ ด้วยไพ่พรหมญาณ
                         </span>
                     </div>
@@ -47,19 +47,19 @@ export default function Hero() {
                         </span>
                     </h1>
 
-                    <p className="scroll-hidden text-primary-300/80 text-xl md:text-2xl mb-4 leading-relaxed max-w-lg" style={{ transitionDelay: '0.3s' }}>
-                        เปิดไพ่ดูดวงชะตา ด้วย <strong className="text-gold-400">ไพ่พรหมญาณ</strong> ที่แม่นยำ
+                    <p className="scroll-hidden text-white text-xl md:text-2xl mb-4 leading-relaxed max-w-lg" style={{ transitionDelay: '0.1s' }}>
+                        เปิดไพ่ดูดวงชะตา ด้วย <strong className="text-gold-300">ไพ่พรหมญาณ</strong> ที่แม่นยำ
                         ให้คำปรึกษาเรื่องความรัก การงาน การเงิน สุขภาพ
                     </p>
 
-                    <p className="scroll-hidden text-primary-300/80 text-xl md:text-2xl mb-10 leading-relaxed max-w-lg" style={{ transitionDelay: '0.4s' }}>
-                        พร้อมบริการ <strong className="text-gold-400">เปลี่ยนเบอร์มือถือมงคล</strong> เสริมดวงชะตา เปลี่ยนชีวิตให้ดีขึ้น
+                    <p className="scroll-hidden text-white text-xl md:text-2xl mb-10 leading-relaxed max-w-lg" style={{ transitionDelay: '0.15s' }}>
+                        พร้อมบริการ <strong className="text-gold-300">เปลี่ยนเบอร์มือถือมงคล</strong> เสริมดวงชะตา เปลี่ยนชีวิตให้ดีขึ้น
                     </p>
 
                     <div className="scroll-hidden flex flex-col sm:flex-row gap-4 justify-center md:justify-start" style={{ transitionDelay: '0.5s' }}>
                         <button
                             onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-                            className="btn-gold px-10 py-4 rounded-full text-mystic-dark font-bold text-xl flex items-center justify-center gap-3"
+                            className="btn-gold px-10 py-4 rounded-full text-mystic-dark font-bold text-2xl flex items-center justify-center gap-3"
                         >
                             <span>✦</span>
                             ดูบริการของเรา
@@ -107,7 +107,7 @@ export default function Hero() {
 
             {/* Scroll indicator - relative to content instead of absolute */}
             <div className="flex flex-col items-center gap-2 animate-bounce mt-8 md:absolute md:bottom-8 md:left-1/2 md:-translate-x-1/2">
-                <span className="text-primary-400 text-base">เลื่อนลง</span>
+                <span className="text-white font-bold text-lg">เลื่อนลง</span>
                 <svg className="w-6 h-6 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                 </svg>

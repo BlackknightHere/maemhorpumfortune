@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Services from './components/Services'
+import Reviews from './components/Reviews'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Stars from './components/Stars'
@@ -16,6 +17,8 @@ function App() {
                 <Hero />
                 <div className="section-divider max-w-4xl mx-auto" />
                 <Services />
+                <div className="section-divider max-w-4xl mx-auto" />
+                <Reviews />
                 <div className="section-divider max-w-4xl mx-auto" />
                 <Contact />
             </main>
